@@ -1,0 +1,61 @@
+﻿@model ShopTheThao.Models.User
+
+
+@{
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/Style.css" />
+
+
+<div id="form-dangky">
+    @using (Html.BeginForm("DangNhap", "User", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <table>
+            <tr class="title-form">
+                <th colspan="2">Đăng Nhập</th>
+
+
+            <tr>
+                <td>@Html.LabelFor(m => m.UserName)</td>
+                <td>@Html.TextBoxFor(m => m.UserName)</td>
+            </tr>
+            <tr>
+                <td colspan="2">@Html.ValidationMessageFor(m => m.UserName)</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label class="field-validation-error">
+                        @Html.DisplayFor(m=>m.LoginErrorMessage)
+                    </label>
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td>@Html.LabelFor(m => m.Password)</td>
+                <td>@Html.PasswordFor(m => m.Password)</td>
+            </tr>
+            <tr>
+                <td colspan="2">@Html.ValidationMessageFor(m => m.Password)</td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                </td>
+
+                <td>
+                    <input class="btn btn-primary" type="submit" value="Đăng Nhập" />
+                    <input class="btn btn-primary" type="reset" value="Làm Mới" />
+                    <a class="btn btn-primary" href="@Url.Action("DangKy","User")">Đăng Ký</a>
+                </td>
+            </tr>
+        </table>
+    }
+</div>
+

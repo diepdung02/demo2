@@ -1,0 +1,25 @@
+﻿.field-validation-error {
+    color: red;
+}
+
+#form-dangky{
+    position:absolute;
+    top:156px;
+    left:507px;
+    border:1px solid #ccc;
+    padding:10px 10px
+}
+
+
+
+
+table{
+    width:500px;
+}
+.title-form{
+    text-align:center;
+    font-size:30px
+}
+td{
+    padding:5px;
+}

@@ -1,0 +1,11 @@
+﻿<div class="navbar-nav ml-auto py-0 d-none d-lg-block">
+    <a href="" class="btn px-0">
+        <i class="fas fa-heart text-primary"></i>
+        <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+    </a>
+    <a href="~/GioHang11/GioHang1" class="btn px-0 ml-3">
+        <i class="fas fa-shopping-cart text-primary"></i>
+        <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">@ViewBag.TongSoLuong</span>
+        <div class="header__cart__price">Số tiền: <span>@string.Format("{0:#,0}", ViewBag.TongTien) vnđ</span></div>
+    </a>
+</div>
