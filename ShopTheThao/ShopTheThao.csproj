@@ -385,12 +385,22 @@
     <Content Include="Models\ShopTheThao.edmx.diagram">
       <DependentUpon>ShopTheThao.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\MDSHOP1 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\ShopTheThao - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ShopTheThao-demo - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\shopthethao-demo1 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\ShopTheThao20230929233618 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\ShopTheThao20230929233618 - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\ShopTheThao20230930172507 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ShopTheThao20230930225852 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ShopTheThao20231001005230 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ShopTheThao20231002142549 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\ShopTheThaoDEMO - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\ShopTheThaoDEMO - Web Deploy1.pubxml" />
     <None Include="Properties\PublishProfiles\ShopTheThaoDemo1 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\shopthethaosql - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\shopthethaosql - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\shopthethaosql - Web Deploy1.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
